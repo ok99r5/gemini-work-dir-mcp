@@ -1,0 +1,1 @@
+This adds and manages project memories in `.gemini/GEMINI.md` within the work directory.
