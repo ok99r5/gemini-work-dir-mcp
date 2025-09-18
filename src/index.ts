@@ -97,9 +97,9 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
   switch (toolName) {
     case "said_":
       result = `
-said_list    List saved work directory monory
-said_to      Save a work directory monory
-said_not     Delete a work directory monory
+said_list    List saved work directory memory.
+said_to      Save a work directory memory.
+said_not     Delete a work directory memory using an index.
 `;
       break;
     case "said_to":
